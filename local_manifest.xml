@@ -5,6 +5,7 @@
     <remote name="SamarV-121" fetch="https://github.com/SamarV-121/" clone-depth="1" />
     <remote name="officialputuid" fetch="https://github.com/officialputuid/" clone-depth="1" />
     <remote name="realme-mt6785-devs" fetch="https://github.com/realme-mt6785-devs/" clone-depth="1" />
+    <remote name="LineageOS" fetch="https://github.com/LineageOS/" clone-depth="1" />
 
     <!-- Sync trees -->
     <project path="device/realme/RMX2001" name="android_device_realme_RMX2001" remote="SamarV-121" revision="lineage-18.1" />
@@ -18,5 +19,8 @@
 
     <!-- Clang -->
     <project path="prebuilts/clang/host/linux-x86/clang-6443078" name="android_prebuilts_clang_host_linux-x86_clang-6443078" remote="realme-mt6785-devs" revision="11.0.1" />
+    
+    <!-- LineageOS -->
+    <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="LineageOS" revision="lineage-18.1" />
 
 </manifest>
